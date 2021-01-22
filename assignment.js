@@ -46,8 +46,8 @@ function hotelCost(days) {
     return price;
 }
 hotelCost()
-var res = hotelCost(100);
-console.log(res);     //checking return value
+var totalPrice = hotelCost(100);
+console.log(totalPrice);     //checking return value
 
 
 //<<4th Problem>>
